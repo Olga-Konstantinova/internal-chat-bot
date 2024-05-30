@@ -36,7 +36,7 @@ def get_staffing_recommendation(question, history):
 
 
 # Streamlit app
-st.title("Staffing Chatbot")
+st.title("Staffing MatchMaker")
 
 # Initialize session state for chat history
 if "history" not in st.session_state:
